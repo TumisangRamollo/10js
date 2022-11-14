@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+body {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.Home {
+  /* background-image: url("./Asserts/background.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100vh;
+  background-color: black;
+
+  width: 100%;
+}
+
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-container {
+  position: fixed !important;
+  display: grid;
+  grid-template-columns: 20% 50% 20% 10%;
+  width: 100%;
+  box-shadow: 0 0 3rem 0 rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  /* position: relative; */
+  /* z-index: 1; */
+  background: black;
+  /* overflow: hidden; */
+}
+
+.nav-container:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.nav-container img {
+  padding: 1rem;
+}
+.nav-ul {
+  display: flex;
+  gap: 4rem;
+  padding-top: 1.2rem;
+  width: 100% !important;
+}
+
+.nav-ul-li {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+.nav-ul-li a:hover {
+  list-style: lower-alpha;
+  color: green !important;
+  border-bottom: 2px solid green;
+  text-decoration: none !important;
+}
+
+.nav-ul-li a {
+  color: yellow;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+.header-container {
+  box-shadow: 0 0 2rem 0 white;
+  margin: auto;
+  width: 60%;
+  margin-top: 90px;
+  padding: 2rem;
+}
+
+.homeheader {
+  color: white;
+  text-align: center;
+  font-size: 7.5rem;
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  width: 95%;
+  margin: auto;
+}
+
+.sub-header {
+  color: white;
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: "Work Sans", sans-serif;
+  /* padding-top: 110px;  */
+}
+
+.sub-header1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Work Sans", sans-serif;
+  box-shadow: 0 0 1rem 0 white;
+  margin: auto;
+  width: 30%;
+}
+.sub-header2 {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+.sub-header3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  text-align: center !important;
+}
+
+.list-group {
+  width: 90%;
+  margin: auto;
+}
+/* .span2 {
+  color: rgba(255, 0, 0, 0.453);
+} */
+
+.errorPage {
+  background-image: url("./Asserts/404_page_cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 94vh;
+}
+
+.Logo {
+  height: 8rem;
+  margin-top: 0.3rem !important;
+  padding: 0 !important;
+  margin-left: 4rem !important;
+}
+.social {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.Social-media {
+  height: 1.3rem;
+  float: right !important;
+  margin-top: 0.3rem !important;
+  padding: 0 !important;
+  margin: 1.3rem !important;
+}
+
+.Social-media1 {
+  padding: 0 !important;
+  height: 1.9rem;
+  float: right !important;
+  margin: 1rem !important;
+}
+
+.Social-media:hover {
+  height: 1.3rem;
+  float: right !important;
+  margin-top: 0.3rem !important;
+  padding: 0 !important;
+  margin: 1.3rem !important;
+}
+
+.Social-media1:hover {
+  padding: 0 !important;
+  height: 1.9rem;
+  float: right !important;
+  margin: 1rem !important;
+}
+
+.content {
+  background-image: url("./Asserts/logo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formContainer {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5rem;
+}
+
+.adminForm {
+  width: 30%;
+  margin: auto;
+  padding: 4rem;
+  border-radius: 40px;
+  box-shadow: 0 0 3rem 0 black;
+}
+
+.about-ceo-wrapper {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  /* background-color: white; */
+  color: black !important;
+}
+
+.vision-mission-values-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+.vision-mission-values-wrapper div {
+  border-radius: 40px;
+  box-shadow: 0 0 3rem 0 white;
+  padding: 2rem;
+}
+
+/* .vision-mission-values-wrapper li:hover{
+  color: white !important;
+  
+} */
+
+.Js-img {
+  height: 18vh;
+  box-shadow: 0 0 1rem 0 white;
+}
+
+.details {
+}
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+tbody tr td {
+  border-bottom: 0.2rem solid green;
+  /* border-right: 0.2rem solid #d7cc36; */
+}
+.detail-link {
+  color: #d7cc36;
+}
+
+.detail-link:hover {
+  color: green;
+}
+
+.referalsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  width: 90%;
+  border-radius: 40px;
+  /* box-shadow: 0 0 3rem 0 yellow; */
+  background-color: white;
+}
+
+.referalsContainer img {
+  width: 50%;
+  margin: auto;
+}
+
+.referals-img1 {
+  margin-top: 4rem;
+}
+.services {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  gap: 2rem;
+}
+
+.services div {
+  border-radius: 20px;
+  box-shadow: 0 0 3rem 0 white;
+  padding: 2rem;
+}
+
+.services div ul {
+  color: white;
+}
+
+.special-images {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: auto;
+  width: 90%;
+}
+
+.special-images img {
+  margin: auto;
+  width: 100%;
+}
+
+.image-name {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.categories-list {
+  height: 100%;
+  /* background-color: rgb(6, 1, 12); */
+  background-color: yellow;
+  color: black !important;
+  /* margin-left: 2rem; */
+  display: grid;
+}
+.categories-list p {
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.257); */
+  color: black !important ;
+  cursor: pointer;
+  padding-left: 1rem !important;
+}
+
+.categories-list p:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  /* color: white !important;  */
+  /* padding-left: 2rem !important; */
+}
+
+.search-input {
+  padding: 1rem !important;
+  background-color: rgba(0, 0, 0, 0.267) !important;
+  color: yellow !important;
+  width: 95% !important;
+  margin: auto !important;
+  height: 3rem !important;
+}
+
+.categories-images {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: auto;
+  width: 90%;
+}
+
+.categories-images img {
+  margin: auto;
+  width: 100%;
+}
+
+.side1 {
+  background-color: rgb(13, 7, 24);
+}
+
+.side1 .admin-links {
+  display: flex;
+  margin: auto;
+  width: 30%;
+  gap: 2rem;
+}
+.side1 .admin-links a {
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.side1 .admin-links p:hover {
+  cursor: pointer;
+  color: yellow;
+}
+.side2 {
+  background-image: linear-gradient(
+      to right,
+      black,
+      rgba(0, 0, 0, 0.925),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./Asserts/side2.jpg);
+
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+
+}
+
+.form-check-label {
+  color:white !important;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.upload {
+  width: 60% !important;
+  margin: auto !important;
+}
+
+.btn-outline-info {
+  width: 100% !important;
+  margin: auto !important;
+}
+
+.btn-outline-info:hover {
+  background-color: rgb(255, 153, 0) !important;
+  color: white !important;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+  margin-top: 1rem;
+}
+
+.add-image-div {
+  display: grid;
+  border-radius: 15px;
+  box-shadow: 0 0 3rem 0 black;
+  padding: 2rem;
+  margin: auto;
+  width: 95%;
+}
+
+.list-of-potos-container p {
+  padding: 2rem;
+}
+
+.list-of-potos-container table {
+  padding: 2rem;
+  margin: auto;
+  width: 95%;
+}
+
+.search {
+  width: 95% !important;
+  margin: auto !important;
+}
+.switch-button {
+  width: 95% !important;
+  margin: 2rem !important;
+}
+
+.add-field {
+  cursor: pointer;
+  margin-top: 0;
+}
+
+.add-field:hover {
+  color: green;
+}
+
+.input-fields {
+  display: grid !important;
+}
+
+.services-admin {
+  border-radius: 15px;
+  box-shadow: 0 0 3rem 0 black;
+  padding: 2rem;
+  margin: auto;
+  width: 95%;
+}
+
+.pricing-admin {
+  border-radius: 15px;
+  box-shadow: 0 0 3rem 0 black;
+  padding: 2rem;
+  margin: auto;
+  width: 95%;
+}
+
+.homeButtonsContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4rem;
+  margin: auto;
+  width: 70%;
+  margin-top: 3rem;
+}
+
+.homeButtonsContainer input {
+  margin: auto !important;
+  width: 100% !important;
+  height: 4em !important;
+  border-radius: 3rem;
+}
+
+/* .homeButtons{
+  width: 30% !important;
+} */
+
+.authPage {
+  background-image: linear-gradient(
+      to right,
+      black,
+      rgba(0, 0, 0, 0.815),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./Asserts/background3.jpg);
+
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.auth-grid {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* vertical-align: top; */
+  top: 15rem;
+}
+
+.auth-h1 {
+  font-size: 5em;
+  color: white;
+
+  /* position: relative;
+  display: inline-block;
+  width: 10%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  vertical-align: top; */
+}
+.homeButtonsContainer a {
+  width: 100% !important;
+}
+
+.btn-info {
+  background-color: white !important;
+}
+
+.btn-info:hover {
+  box-shadow: 0 0 1rem 0 yellow !important;
+  /* border-radius: 5px; */
+}
+
+.btn-warning {
+  background-color: yellow !important;
+}
+
+.btn-warning:hover {
+  box-shadow: 0 0 1rem 0 white !important;
+}
+
+.success {
+  width: 100% !important;
+  color: white !important;
+}
+
+.success:hover {
+  width: 100% !important;
+  background-color: yellow !important;
+  color: black !important;
+}
+
+.our-services-container {
+  background-image: linear-gradient(
+      to right,
+      black,
+      rgba(0, 0, 0, 0.815),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./Asserts/cam.jpg);
+
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.gallery-images-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+}
+
+.gallery-container {
+  background-color: white;
+  width: 100% !important;
+  height: 100vh;
+}
+/* ////// */
+
+.about {
+  background-color: black;
+}
+
+.contact-container {
+  background-color: black;
+
+  height: 100% !important;
+}
+
+.pricing-container {
+  background-color: black;
+  height: 100% !important;
+}
